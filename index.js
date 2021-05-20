@@ -6,7 +6,7 @@ let PORT = 4000;
 
 routes(app);
 
-app.get('/', (req,res) => {
+app.get('/', (req, res) => {
     res.send(`Node and Express server running on port ${PORT}`)
 });
 
